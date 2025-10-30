@@ -275,27 +275,14 @@ Resumen del escaneo de la red
 
 ### 3. Comparativa técnica Nessus Professional vs Nexpose / InsightVM
 
+En la siguiente tabla se realiza la comparativa de ambas herramientas según las caracteristicas, nivel de detalle, velocidad de escaneo, generación de reportes y otros apartados.
+
 ![](Pictures/100000000000065F0000039EC4258789.png)
 
 
 
-  ------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ****1. Características técnicas****                          Escáner de vulnerabilidades robusto, con más de 190,000 plugins actualizados; análisis de red, hosts, configuraciones, parches y aplicaciones. Enfoque en escaneo puntual y detallado.   Plataforma integral de gestión de vulnerabilidades; combina escáner, agentes, dashboards, priorización por riesgo real y automatización de remediación. Arquitectura más empresarial.
-  ****2. Nivel de detalle y profundidad****                    Altísimo nivel técnico por hallazgo (CVE, CVSS, descripción, solución). Escaneos autenticados permiten auditorías internas detalladas.                                                   Además del detalle técnico, añade contexto y priorización basada en criticidad del activo, exposición y probabilidad de explotación. Se integra con Metasploit para validación práctica.
-  ****3. Velocidad de escaneo y rendimiento****                Muy rápido y eficiente en escaneos bien configurados; requiere segmentar para grandes entornos. Buen balance entre precisión y velocidad.                                                "Scan Assistant" y agentes ligeros mejoran el rendimiento en redes grandes. Diseñado para escalar con alto rendimiento y mínima carga de red.
-  ****4. Resultados y generación de reportes****               Reportes exhaustivos y técnicos; exporta a múltiples formatos (PDF, CSV, HTML). Ideal para auditores o pentesters.                                                                       Dashboards dinámicos, informes ejecutivos y técnicos integrados. Reportes orientados a riesgo y remediación. Facilita priorización y visualización en tiempo real.
-  ****5. Identificación de puertos, servicios y usuarios****   Escaneo de puertos y servicios completo, detección de versiones y configuraciones locales (vía credenciales). Ideal para descubrimiento profundo.                                        Igual detección de puertos y servicios; con agentes, obtiene también configuraciones, usuarios y estado de software incluso sin conexión directa. Mayor visibilidad en activos remotos.
-  ****6. Asociación con exploits / validación activa****       Puede realizar "unsafe checks" para validar vulnerabilidades, pero no ejecuta exploits completos. Enfoque más conservador.                                                               Integración directa con ****Metasploit Framework**** para correlacionar y validar vulnerabilidades explotables. Mejor priorización basada en exploits reales.
-  ------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ### 4. Conclusión general
 
-![](Pictures/100000000000065F0000039EC4258790.png)
+En la siguiente tabla se describe qué herramienta es mejor opción según la funcionalidad requerida.
 
-  ----------------------------------------- ----------------------------- ------------------------------------------------------------------------------------------------------
-  Escaneo técnico puntual / auditorías      ****Nessus Professional****   Mayor detalle técnico, interfaz más simple, excelente para análisis por host o red pequeña.
-  Gestión continua de vulnerabilidades      ****Nexpose / InsightVM****   Gestión de ciclo completo: detección, priorización, remediación y dashboards en tiempo real.
-  Validación práctica de exploits           ****Nexpose / InsightVM****   Integración nativa con Metasploit permite pruebas controladas y priorización basada en riesgo real.
-  Simplicidad y costo                       ****Nessus Professional****   Más económico, fácil de implementar y mantener. Ideal para equipos de seguridad pequeños o medianos.
-  Escalabilidad y visibilidad corporativa   ****Nexpose / InsightVM****   Mejor arquitectura distribuida, uso de agentes, y gestión centralizada de grandes entornos.
-  ----------------------------------------- ----------------------------- ------------------------------------------------------------------------------------------------------
+![](Pictures/100000000000065F0000039EC4258790.png)
